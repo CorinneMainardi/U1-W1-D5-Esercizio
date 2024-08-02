@@ -50,7 +50,7 @@ body {
 .block {
   margin-inline: 300px;
   margin-bottom: 150px;
-  text-align-center;
+  text-align: center;
 }
 .imgBlock {
   display: inline-block;
