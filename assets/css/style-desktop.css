@@ -8,7 +8,7 @@ body {
 }
 .logo {
   background-color: black;
-  padding: 20px 30px 20px 30px;
+  padding: 50px 30px 50px 30px;
   text-align: left;
 }
 .header {
@@ -17,7 +17,7 @@ body {
   background-size: 100%;
   background-position: cover;
   margin-top: 0;
-  margin-bottom: 30px;
+  margin-bottom: 150px;
 }
 .header h1 {
   color: #25a2c3;
@@ -48,11 +48,10 @@ body {
   margin-inline: 750px;
 }
 .block {
-  border: 1px solid;
   margin-inline: 300px;
+  margin-bottom: 150px;
 }
 .imgBlock {
-  border: 1px solid;
   display: inline-block;
 }
 .imgBlock img {
@@ -61,9 +60,8 @@ body {
   border-radius: 50%;
 }
 .textBlock {
-  border: 1px solid;
   display: inline-block;
-  text-align: left;
+  margin-left: 70px;
 }
 .textBlock h4 {
   color: #25a2c3;
@@ -77,8 +75,7 @@ body {
   margin-bottom: 30px;
 }
 .box {
-  border: 1px solid;
-
+  margin-bottom: 150px;
   background-color: #e22d0e;
   color: white;
   text-align: center;
@@ -95,8 +92,71 @@ body {
 .box h4 + p {
   font-style: italic;
   margin-top: 0;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 #ceo {
+  font-size: 15px;
+}
+
+.boxesDiv {
+  margin-inline: 250px;
+  margin-bottom: 150px;
+}
+.boxes {
+  border: 0.1px solid;
+  border-color: #dee1e3;
+  display: inline-block;
+  width: 400px;
+  margin-left: 30px;
+}
+.boxes img {
+  width: 100%;
+}
+.boxes h5 {
+  color: #25a2c3;
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+.boxText {
+  padding: 30px 20px 30px 20px;
+}
+.boxText p {
+  text-align: center;
+}
+footer {
+  background-color: #25a2c3;
+  color: white;
+  padding: 60px 20px 30px 20px;
+}
+footer h4 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-inline: 825px;
+  margin-bottom: 20px;
+}
+footer div {
+  margin-inline: 825px;
+  margin-bottom: 50px;
+}
+footer div p {
+  font-size: 15px;
+  margin-top: 0;
+  text-align: left;
+}
+
+.pF {
+  text-decoration: underline;
+}
+.copy {
+  margin-inline: 825px;
+}
+
+#copy {
+  border-top: 1px solid;
   font-size: 10px;
+  text-align: center;
+
+  margin-bottom: 20px;
+  padding-top: 15px;
 }
