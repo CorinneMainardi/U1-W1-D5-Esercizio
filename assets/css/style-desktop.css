@@ -15,7 +15,7 @@ body {
   background-image: url(../img/banner.jpg);
   padding: 150px 150px 150px 150px;
   background-size: 100%;
-  background-position: cover;
+  background-position: center;
   margin-top: 0;
   margin-bottom: 150px;
 }
