@@ -92,7 +92,7 @@ body {
 .boxes {
   margin: 30px 20px 30px 20px;
   border: 0.1px solid;
-  border-color: rgb(238, 237, 237);
+  border-color: #dee1e3;
 }
 .boxes img {
   width: 100%;
@@ -107,5 +107,24 @@ body {
   padding: 30px 20px 30px 20px;
 }
 .boxText p {
+  text-align: center;
+}
+footer {
+  background-color: #25a2c3;
+  color: white;
+}
+footer h4 {
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 15px;
+}
+footer div {
+  text-align: center;
+  margin-bottom: 15px;
+  border-bottom: solid 1px;
+}
+.copy {
+  font-size: 10px;
   text-align: center;
 }
