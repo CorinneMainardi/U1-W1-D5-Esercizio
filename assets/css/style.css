@@ -57,6 +57,15 @@ body {
   font-family: "Montserrat";
   line-height: 1.5;
 }
+img {
+  text-align: center;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin-inline: 100px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
 .box {
   background-color: #e22d0e;
   color: white;
