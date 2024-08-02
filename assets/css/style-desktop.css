@@ -9,12 +9,13 @@ body {
 .logo {
   background-color: black;
   padding: 20px 30px 20px 30px;
-  text-align: center;
+  text-align: left;
 }
 .header {
   background-image: url(../img/banner.jpg);
-  padding: 60px 30px 60px 30px;
-  background-size: cover;
+  padding: 150px 150px 150px 150px;
+  background-size: 100%;
+  background-position: cover;
   margin-top: 0;
   margin-bottom: 30px;
 }
@@ -32,6 +33,7 @@ body {
   text-align: center;
   margin-top: 0;
   margin-bottom: 30px;
+  margin-inline: 500px;
 }
 .header button {
   background-color: #f04c2f;
@@ -43,35 +45,44 @@ body {
   border: none;
   padding: 10px;
   border-radius: 5px;
-  margin-inline: 90px;
+  margin-inline: 750px;
 }
-.cards {
-  text-align: center;
-  padding: 10px 30px 10px 30px;
-  margin-top: 0;
-  margin-bottom: 30px;
+.block {
+  border: 1px solid;
+  margin-inline: 300px;
 }
-.cards h4 {
+.imgBlock {
+  border: 1px solid;
+  display: inline-block;
+}
+.imgBlock img {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+}
+.textBlock {
+  border: 1px solid;
+  display: inline-block;
+  text-align: left;
+}
+.textBlock h4 {
   color: #25a2c3;
   font-family: "Montserrat";
   line-height: 1.5;
   font-weight: bold;
-}
-.img {
-  text-align: center;
-  border-radius: 50%;
-  width: 150px;
-  height: 150px;
-  margin-inline: 100px;
+  margin-bottom: 10px;
   margin-top: 0;
-  margin-bottom: 20px;
+}
+.textBlock p {
+  margin-bottom: 30px;
 }
 .box {
+  border: 1px solid;
+
   background-color: #e22d0e;
   color: white;
   text-align: center;
-  padding: 30px 20px 30px 20px;
-  margin-top: 0;
+  padding: 100px 0px 100px 0px;
 }
 .box h4 {
   font-weight: bold;
@@ -84,62 +95,8 @@ body {
 .box h4 + p {
   font-style: italic;
   margin-top: 0;
-  margin-bottom: 15px;
-  font-size: 15px;
+  margin-bottom: 30px;
 }
 #ceo {
   font-size: 10px;
-}
-.boxes {
-  margin: 30px 20px 30px 20px;
-  border: 0.1px solid;
-  border-color: #dee1e3;
-}
-.boxes img {
-  width: 100%;
-}
-.boxes h5 {
-  color: #25a2c3;
-  text-align: center;
-  font-family: "Montserrat";
-  font-weight: bold;
-}
-.boxText {
-  padding: 30px 20px 30px 20px;
-}
-.boxText p {
-  text-align: center;
-}
-footer {
-  background-color: #25a2c3;
-  color: white;
-  padding: 30px 20px 30px 20px;
-}
-footer h4 {
-  font-weight: bold;
-  font-size: 1.2rem;
-  text-align: center;
-  margin-bottom: 10px;
-}
-footer div {
-  text-align: center;
-
-  padding: 30px 20px 30px 20px;
-}
-footer div p {
-  font-size: 15px;
-  margin-top: 0;
-}
-
-.pF {
-  text-decoration: underline;
-}
-
-#copy {
-  border-top: 1px solid;
-  font-size: 10px;
-  text-align: center;
-  margin-inline: 50px;
-  margin-bottom: 20px;
-  padding-top: 15px;
 }
