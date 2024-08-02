@@ -57,7 +57,7 @@ body {
   font-family: "Montserrat";
   line-height: 1.5;
 }
-img {
+.img {
   text-align: center;
   border-radius: 50%;
   width: 150px;
@@ -88,4 +88,24 @@ img {
 }
 #ceo {
   font-size: 10px;
+}
+.boxes {
+  margin: 30px 20px 30px 20px;
+  border: 0.1px solid;
+  border-color: rgb(238, 237, 237);
+}
+.boxes img {
+  width: 100%;
+}
+.boxes h5 {
+  color: #25a2c3;
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+.boxText {
+  padding: 30px 20px 30px 20px;
+}
+.boxText p {
+  text-align: center;
 }
