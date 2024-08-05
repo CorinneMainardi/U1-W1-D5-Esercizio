@@ -10,7 +10,7 @@ body {
   color: #393d41;
   font-size: 1.2rem;
   font-family: "Open Sans";
-  line-height: 1.65;
+  line-height: 1.6rem;
 }
 .logo {
   background-color: black;
@@ -27,12 +27,11 @@ body {
 .header h1 {
   color: #25a2c3;
   font-family: "Montserrat";
-  font-size: 1.2rem;
+  font-size: 2rem;
   font-weight: bold;
   text-align: center;
   margin-top: 0;
   margin-bottom: 15px;
-  line-height: 1.5;
 }
 .header p {
   text-align: center;
